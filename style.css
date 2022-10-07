@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(100deg, #142029 0%, #ce3e3ede 100%);
+  box-shadow: 15px 70px 50px rgba(39, 130, 113, 0.899);
+}
+
+.adicionar {
+  background-color: royalblue;
+  color: white;
+  font-size: 15px;
+  border: 2px solid black;
+  width: 130px;
+  height: 31px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  border-radius: 50px;
+  width: 550px;
+  margin: auto;
+  margin-top: 12%;
+}
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+#funcionamento {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.input {
+  width: 300px;
+  height: 25px;
+  border: 2px solid black;
+  font-size: 20px;
+}
+.limparTudo {
+  margin-left: 50px;
+  background-color: green;
+  color: honeydew;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.listas {
+  display: inline-flex;
+}
+.limpar-finalizados {
+  margin-left: 50px;
+  background-color: tomato;
+  color: honeydew;
+  font-size: 20px;
+  border: 2px solid black;
+}
+#lista-tarefas {
+  margin-left: 25px;
+}
+.listnis {
+  font-size: 20px;
+}
+#pai {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+#pai2 {
+  display: inline-block;
+}
+#texto-tarefa {
+  margin-left: 50px;
+}
+#titulo {
+  margin-left: 100px;
+  margin-top: 30px;
+}
